@@ -1,0 +1,29 @@
+name: Update
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '42 6 * * 0'
+
+jobs:
+  generate-ics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Configure git
+        run: |
+          git config --global user.name "Raul Tapia"
+          git config --global user.email "raultapia@us.es"
+
+      - name: Run
+        run: python3 film-festival-calendar.py
+
+      - name: Push
+        run: |
+          git add film-festival-calendar.ics
+          git commit --amend -m "Update ics from action"
+          git push origin main --force
