@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Film Festivals
+BEGIN:VEVENT
+DTSTART:20251009
+DTEND:20251019
+SUMMARY:Sitges Film Festival
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250513
+DTEND:20250524
+SUMMARY:Cannes Film Festival
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20241108
+DTEND:20241116
+SUMMARY:Festival de Cine Europeo de Sevilla (SEFF)
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240905
+DTEND:20240915
+SUMMARY:Toronto International Film Festival (TIFF)
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240920
+DTEND:20240928
+SUMMARY:Festival Internacional de Cine de San Sebastian (SSIFF)
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250213
+DTEND:20250223
+SUMMARY:Berlin International Film Festival (Berlinale)
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20240828
+DTEND:20240907
+SUMMARY:Mostra Internazionale d'Arte Cinematografica della Biennale di Venezia
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20250123
+DTEND:20250202
+SUMMARY:Sundance Film Festival
+DESCRIPTION:Imported from https://github.com/raultapia/film-festival-calendar
+END:VEVENT
+END:VCALENDAR
